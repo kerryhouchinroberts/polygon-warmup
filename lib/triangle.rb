@@ -5,7 +5,7 @@ class Triangle < Polygon
   end
 
   def perimeter
-    @side_length * 3
+    super
   end
 
   def area

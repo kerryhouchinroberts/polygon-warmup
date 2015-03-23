@@ -5,11 +5,11 @@ class Square < Polygon
   end
 
   def perimeter
-    @side_length * 4
+    super
   end
 
   def area
-    @side_length * @side_length
+    @side_length**2
   end
 
 end

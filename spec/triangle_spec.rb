@@ -1,4 +1,5 @@
 require 'spec_helper.rb'
+require 'polygon.rb'
 require 'triangle.rb'
 
 RSpec.describe Triangle do

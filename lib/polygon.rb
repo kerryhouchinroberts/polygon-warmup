@@ -6,13 +6,13 @@ class Polygon
     @sides = sides
     @side_length = side_length
   end
- 
+
   def area
     raise "subclass must define area"
   end
- 
+
   def perimeter
-    raise "define perimeter here"
+    side_length * sides
   end
 
 end
