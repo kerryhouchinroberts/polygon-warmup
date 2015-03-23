@@ -1,3 +1,7 @@
+require 'spec_helper.rb'
+require 'polygon.rb'
+require 'square.rb'
+
 RSpec.describe Square do
 
   before(:each) do

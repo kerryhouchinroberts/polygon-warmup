@@ -1,3 +1,6 @@
+require 'spec_helper.rb'
+require 'triangle.rb'
+
 RSpec.describe Triangle do
 
   before(:each) do
